@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Duployan:wght@400;700&display=swap');
+
+.noto-sans duployan-regular {
+    font-family: "Noto Sans Duployan", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .noto-sans duployan-bold {
+    font-family: "Noto Sans Duployan", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
