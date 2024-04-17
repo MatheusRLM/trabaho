@@ -11,14 +11,14 @@
 body{  
     overflow: hidden0;
 }
-.backgroud{
+/* .backgroud{
         background: linear-gradient(rgba(0, 0, 0, 0.5) rgba(0,0,0,0.5));
         
         background-size: cover;
         background-position: center;
         width: 100%;
         height: 100vh;
-    }
+    } */
 header{
     display: flex;
     justify-content: space-around;
@@ -103,8 +103,8 @@ button:hover{
                         color: #2ecc71;
                     }
 
-text p{
-                        color: #fff;
+.text p{
+    color: #fff;
                         font-size: 10px;
                         font-weight: 300;
                         margin-top: 10px;
@@ -145,7 +145,10 @@ text p{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-bottom: 150px;
+    padding-bottom: 120px;
+    background-color: #2ecc71;
+    text-align: center;
+
 }
 
 .foto2{
@@ -159,15 +162,34 @@ text p{
     background-size: cover;
     background-position: center;
 }
-.s2-div2{
-    color: #fff;
+.s2-div2 p{
+    color: rgb(255, 255, 255);
+    background-color: #2ecc71;
+    justify-content: center;
 }
 .s2-div2 span{
-    color: #2ecc71;
+    color: #000000;
+    background-color: #2ecc71;
 }
+.s2-div2 strong{
+    color: #ffffff;
+    background-color: #2ecc71;
+}
+.s2-div2 h3{
+    color: #ffffff;
+    background-color: #2ecc71;
+}
+
 .s3-div3{
     color: #fff;
 }
-tabela {
+.tabela {
     background-color: white;
+}
+
+.section4 {
+    color: rgb(255, 255, 255);
+    padding-bottom: 120px;
+    text-align: center;
+    padding-top: 30px;
 }
